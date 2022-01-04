@@ -35,7 +35,6 @@ class MainTest {
     @Test
     fun deleteTaskOnMainPage() {
         mainPage.createTask("Deleted", "task will be deleted")
-        swipeUp()
         mainPage.deleteTask("Deleted")
     }
 
